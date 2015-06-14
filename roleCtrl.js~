@@ -1,0 +1,22 @@
+
+var role = {
+    get:roleGet,
+    post:rolePost,
+    delete:roleDelete
+}
+
+function roleGet(req, res){
+    
+}
+function rolePost(req, res){
+    
+}
+function roleDelete(req, res){
+    
+}
+
+
+module.exports = role;
+
+
+

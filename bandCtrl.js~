@@ -1,0 +1,18 @@
+var band = {
+    post:bandPost,
+    delete:bandDelete
+}
+
+function bandPost(req, res){
+    console.log(req.cookies)
+    res.send('role post');
+}
+function bandDelete(req, res){
+    res.send('role delete');
+}
+
+
+module.exports = band;
+
+
+
